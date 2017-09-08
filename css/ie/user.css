@@ -1,0 +1,104 @@
+body{
+	height: 100%;
+	width: 100%;
+	font-size:100%;
+	margin-left:0%;
+	margin-top:0%;
+	font-family:Segoe UI;
+	background:#FFEBEE;
+	position: absolute;
+}
+
+.papercontainer{
+	position:relative;
+	height:100%;
+	width:100%;
+
+}
+
+.papertool{
+	background:#F44336;
+	top:0%;
+	height:10%;
+	border:1px solid red; 
+}
+
+.menutip{
+	padding:0%;
+	width:100%;
+	border-top:0.07em solid white;
+	margin-left:5%;
+	margin-top:20%;
+	margin-bottom: 3%;
+}
+div#menucircle{
+	cursor: pointer;
+	margin-top: 0.5%;
+	padding:1%;
+	border-radius:50%;
+	width:1.8%;
+	margin-left: 2%;
+	float:left;
+	padding-top:0.7%;
+	padding-left: 0.7%;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+div#menucircle:hover{
+  color:red;
+}
+
+div#menucircle:hover .menutip{
+	border-top:0.07em solid white;
+	-webkit-transition:toptool 2s 1;
+}
+
+div#logout {
+   margin-left:90%;
+   margin-top:2%;
+}
+
+div#logout a{
+	text-decoration: none;
+	background: transparent;
+	-webkit-transition:background 0s;
+      -moz-transition:background 0s;
+      -ms-transition:background 0s;
+      -o-transition:background 0s;
+      transition:background 0s;
+	color:white;
+	padding:6%;
+	border:1px solid white;
+}
+
+div#logout a:hover{
+	background: white;
+	-webkit-transition:background 0.5s;
+      -moz-transition:background 0.5s;
+      -ms-transition:background 0.5s;
+      -o-transition:background 0.5s;
+      transition:background 0.5s;
+      color: #EF5350;
+}
+
+@keyframes toptool{
+    80%{ -webkit-transform: rotateZ(30deg);}
+}
+
+@-webkit-keyframes toptool{
+	80%{-webkit-transform: rotateZ(30deg);}
+}
+
+@-webkit-keyframes colorfade{
+	30%{background:white;color:red;}
+	100%{background:white;color:red;}
+}
+div#menu{
+	display:none;
+	width:20%;
+	height:100%;
+	float:left;
+	background: #FFEBEE;
+	border:1px solid red;
+}

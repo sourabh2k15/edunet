@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<branches>
+  <branch id="0">CSE</branch>
+  <branch id="1">ECE</branch>
+  <branch id="2">Mech</branch>
+  <branch id="3">Elec</branch>
+  <branch id="4">Msme</branch>
+  <branch id="5">Civil</branch>
+</branches>

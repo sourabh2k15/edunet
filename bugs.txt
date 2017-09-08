@@ -1,0 +1,3 @@
+* file upload lazy bug .  - natural 
+* xml malformed bug leading to user search failure  - regenerate the xml
+* ) , </> completion missing  - scrutinize the code

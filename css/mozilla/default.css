@@ -1,0 +1,80 @@
+body{
+	height: 100%;
+	width: 100%;
+	font-size:100%;
+	margin-left:0%;
+	margin-top:0%;
+	font-family:Segoe UI;
+	background:#FFEBEE;
+	position: absolute;
+}
+
+.papercontainer{
+	position:relative;
+	height:100%;
+	width:100%;
+}
+
+.papertool{
+	background:#EF5350;
+	top:0%;
+	height:12%;
+	border:1px solid #F16462;
+	border-bottom:1px solid #FFEBEE;
+	-webkit-box-shadow:0px 0px 8px rgba(0,0,0,0.5); 
+}
+
+.userbar{
+	width:97.5%;
+	background: #E91E63;
+	color:white;
+	font-size: 16px !important;
+	padding: 2%;
+	text-align: center;
+}
+
+
+.propic{
+	width:19%;
+	height:50px;
+	margin-left:10%;
+	border-radius:50%;
+	margin-top:2%;
+	float:left;
+	border:1px solid white;
+	box-shadow: inset 0px 0px 1px 1px #000;
+	opacity:0.9;
+}
+
+.usertitle{
+	color:white;
+	text-decoration: none;
+	margin-left:5%;
+	line-height:200%;
+}
+
+.infospans{
+	color: #F48FB1;
+	padding:1%;
+	margin-left:15%;
+	line-height:500%;
+}
+
+.infospans a{
+	color: #F48FB1;
+	padding:2%;
+	border:1px solid #F48FB1;
+	text-decoration: none;
+}
+
+div#infobar{
+	width:95.8%;
+	background:white;
+	-webkit-box-shadow:0px 0px 8px rgba(0,0,0,0.2);
+}
+
+
+.infospans:hover a{
+   color: cyan;
+   border:1px solid cyan;
+}

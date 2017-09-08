@@ -1,0 +1,48 @@
+
+div#pluscircle {   
+    position:absolute;
+    top:85%;
+    left:90%;
+    width:2%;
+    background:#FF5722;
+    height:3.5%;
+    border:2px solid white;
+    cursor:pointer;
+    -webkit-box-shadow:0px 0px 8px rgba(0,0,0,0.4); 
+}
+
+    div#pluscircle .menutip:nth-child(2) {
+        border-color:white;
+        border-width:1px;
+        margin-top:0px;
+        -webkit-transform:rotateZ(90deg);
+    }
+    div#pluscircle .menutip:nth-child(1) {
+        border-color:white;
+        margin-top:12px;
+        border-width:1px;
+    }
+div#menu {
+    z-index:20;
+}
+.mastervideo {
+    position:absolute;
+    width:100%;
+    height760%;
+    background:black;
+    
+}
+
+.videocont {
+    width:100%;
+    padding:0%;
+}
+
+    .videocont video {
+        margin-left:25%;
+        opacity:0.9;
+        width:700px;
+        height:100%;
+    }
+
+

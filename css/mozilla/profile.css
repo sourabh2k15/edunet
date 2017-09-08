@@ -1,0 +1,29 @@
+.papertool{
+	background:white;
+	width:60%;
+	border:none;
+	margin-left:20%;
+	-webkit-box-shadow:0px 0px 8px rgba(0,0,0,0.5);
+	margin-top:5%;
+}
+
+div#userbar{
+	width:96%;	
+}
+
+.propic{
+	border-radius:3%;
+	box-shadow:none;
+	margin-top:2%;
+	width:12%;
+	height:120px;
+	opacity:1;
+}
+
+span#username{
+  margin-left:25%;
+  margin-top:20%;
+  padding:1%;
+  line-height:300%;
+}
+
